@@ -1,6 +1,3 @@
-/**
- * Created by yzeng on 03/05/2017.
- */
 public class Rectangle {
 
     private double height;
@@ -28,5 +25,9 @@ public class Rectangle {
 
     public double getHeight() {
         return height;
+    }
+
+    public static Rectangle generateSquare(double side) {
+        return new Rectangle(side, side);
     }
 }
