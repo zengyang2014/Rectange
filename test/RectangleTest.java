@@ -24,7 +24,6 @@ public class RectangleTest {
         this.rectangle = new Rectangle(-1000,0);
         assertTrue(this.rectangle.getHeight() == 1000);
 
-
     }
 
 }
